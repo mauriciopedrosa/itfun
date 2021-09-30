@@ -1,0 +1,49 @@
+/*cambios al bootstrap*/
+@import "variablesIt";
+
+.mb1 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;    
+}
+
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+div{
+    .card{
+        background-color: $fondosCard;
+        border-radius: 10px;
+    
+        :link{
+            color: $coloresLinks;
+            text-decoration: none;
+        }
+        :visited{
+            color: $coloresLinks;
+            text-decoration: none;
+        }
+        :active{
+            color: $coloresLinks;
+            text-decoration: none;
+        }
+       
+    }
+}
+
+div{
+    .card:hover {
+
+        transition: all 0.10s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        /*border: 1px solid #cccccc;*/
+        border: 1px solid map-get($grays , "300" );
+        background-color: rgb(255, 255, 255);
+       
+    }
+}
+

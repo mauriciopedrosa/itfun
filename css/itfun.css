@@ -1,0 +1,90 @@
+/*cambios al bootstrap*/
+.mb1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; }
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor; }
+
+div .card {
+  background-color: #f2f8f9;
+  border-radius: 10px; }
+  div .card :link {
+    color: black;
+    text-decoration: none; }
+  div .card :visited {
+    color: black;
+    text-decoration: none; }
+  div .card :active {
+    color: black;
+    text-decoration: none; }
+
+div .card:hover {
+  transition: all 0.10s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  /*border: 1px solid #cccccc;*/
+  border: 1px solid #dee2e6;
+  background-color: white; }
+
+/* varios de header*/
+header a :hover {
+  color: white; }
+
+/* links del main*/
+a :link {
+  color: black;
+  text-decoration: none; }
+
+a :visited {
+  color: black;
+  text-decoration: none; }
+
+a :active {
+  color: black;
+  text-decoration: none; }
+
+/*generales del main*/
+main {
+  padding: 0%; }
+  main img {
+    padding: 50px; }
+
+tbody img {
+  padding: 0%; }
+
+.div-1 {
+  color: black;
+  padding: 0%;
+  text-align: center;
+  margin-top: 30px; }
+
+.div-2 {
+  margin-top: 50px;
+  padding: 0%; }
+
+.desarrollos {
+  justify-content: center;
+  text-align: center; }
+
+.desarrollo_secciones {
+  margin-top: 50px;
+  padding: 0%;
+  justify-content: center; }
+
+.titulares p {
+  background-color: #f2f8f9;
+  border-radius: 10px; }
+
+ul {
+  text-align: left; }
+
+.mapa {
+  text-align: center; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px; }

@@ -1,0 +1,10 @@
+/* varios de header*/
+@import "variablesIt";
+
+header {
+    a{
+        :hover{
+            color: $colorTextNavHovers;
+        }
+    }
+}
