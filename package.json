@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciopedrosa/itfun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriciopedrosa/itfun/issues"
+  },
+  "homepage": "https://github.com/mauriciopedrosa/itfun#readme",
   "description": ""
 }
