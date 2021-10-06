@@ -12,7 +12,7 @@
     "build-css": "node-sass --include-path scss scss/itfun.scss css/itfun.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Mauricio Pedrosa",
   "license": "ISC",
   "repository": {
     "type": "git",
