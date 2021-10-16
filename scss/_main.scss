@@ -66,9 +66,11 @@ tbody img  {
     }
     img:hover {
         filter: drop-shadow(2px 2px 2px rgb(8, 8, 8));
+        max-width: 160px;
       }
 }
 
+   
 .titulares {
     border-radius: 6px;  
     letter-spacing: 3px;
